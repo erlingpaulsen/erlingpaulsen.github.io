@@ -108,6 +108,8 @@ defaults:
       share: true
       related: true
       show_date: true
+      header:
+        teaser: "/assets/images/default_teaser_500x300.png"
   # _pages
   - scope:
       path: "_pages"
