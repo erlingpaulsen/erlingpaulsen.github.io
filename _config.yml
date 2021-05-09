@@ -14,13 +14,19 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: erlingsp
+subtitle: "nothing to see here"
 email: erling.singstad.paulsen@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This is my personal page used for sharing thoughts, code, guides, art and music.
+  This is my personal page used for sharing thoughts, code, guides, art, music and other random stuff.
 #twitter_username: username
 github_username: erlingpaulsen
 minimal_mistakes_skin: dark
 search: true
+locale: "nb-NO"
+url: "https://blog.erlingsp.no"
+repository: "erlingpaulsen/erlingpaulsen.github.io"
+teaser: "/assets/images/default_teaser_500x300.png"
+logo: "/assets/images/logo_110x110.png"
 
 # Build settings
 markdown: kramdown
@@ -29,7 +35,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Oslo # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
@@ -57,10 +63,12 @@ plugins:
 
 author:
   name   : "Erling Singstad Paulsen"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/apollonian_gasket_200x200.jpg"
   bio    : "Some Norwegian dude."
   links:
-    - label: "Website"
+    - label: "Oslo, Norway"
+      icon: "fab fa-fw map-marker-alt"
+    - label: "erlingsp"
       icon: "fas fa-fw fa-link"
       url: "https://erlingsp.no"
     - label: "Youtube"
@@ -69,14 +77,23 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/erlingpaulsen"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/erlingsp"
 footer:
   links:
+    - label: "erlingsp"
+      icon: "fas fa-fw fa-link"
+      url: "https://erlingsp.no"
     - label: "Youtube"
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/channel/UCWzUj1jh1yFFRl2yaUWCOGA"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/erlingpaulsen"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/erlingsp"
 
 defaults:
   # _posts
@@ -87,9 +104,10 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: true
       related: true
+      show_date: true
   # _pages
   - scope:
       path: "_pages"
@@ -98,9 +116,10 @@ defaults:
       layout: single
       author_profile: true
 
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
+#category_archive:
+#  type: liquid
+#  path: /categories/
+
+#tag_archive:
+#  type: liquid
+#  path: /tags/
