@@ -108,9 +108,16 @@ defaults:
       share: true
       related: true
       show_date: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
   # _p5js
   - scope:
-      path: "_p5js"
+      path: ""
       type: p5js
     values:
       layout: single
@@ -120,13 +127,6 @@ defaults:
       share: true
       related: false
       show_date: true
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
 
 #category_archive:
 #  type: liquid
@@ -135,3 +135,8 @@ defaults:
 #tag_archive:
 #  type: liquid
 #  path: /tags/
+
+collections:
+  p5js:
+    output: true
+    permalink: /:collection/:path/

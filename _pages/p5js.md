@@ -4,6 +4,7 @@ layout: collection
 permalink: /p5js/
 collection: p5js
 entries_layout: grid
+classes: wide
 ---
 
 A collection of digital artwork created using [p5.js][p5-js], a JavaScript interpretation of [Processing][processing].
