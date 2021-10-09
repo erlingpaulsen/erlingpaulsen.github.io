@@ -108,6 +108,18 @@ defaults:
       share: true
       related: true
       show_date: true
+  # _p5js
+  - scope:
+      path: ""
+      type: p5js
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: true
+      related: false
+      show_date: true
   # _pages
   - scope:
       path: "_pages"
