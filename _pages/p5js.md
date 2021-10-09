@@ -1,8 +1,8 @@
 ---
 title: p5.js
-layout: category
+layout: collection
 permalink: /p5js/
-taxonomy: p5js
+collection: p5js
 entries_layout: grid
 ---
 
