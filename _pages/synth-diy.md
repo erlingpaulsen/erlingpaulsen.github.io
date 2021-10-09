@@ -1,7 +1,7 @@
 ---
 title: Synth DIY
 layout: category
-permalink: /categories/synthdiy/
+permalink: /synthdiy/
 taxonomy: synthdiy
 entries_layout: grid
 ---

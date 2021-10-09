@@ -4,6 +4,6 @@ main:
   - title: "p5.js"
     url: /p5js/
   - title: "Synth DIY"
-    url: /categories/synthdiy/
+    url: /synthdiy/
   - title: "About"
     url: /about/

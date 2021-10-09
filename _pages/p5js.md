@@ -1,7 +1,7 @@
 ---
 title: p5.js
 layout: category
-permalink: /categories/p5js/
+permalink: /p5js/
 taxonomy: p5js
 entries_layout: grid
 ---
