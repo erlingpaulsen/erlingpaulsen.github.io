@@ -110,7 +110,7 @@ defaults:
       show_date: true
   # _p5js
   - scope:
-      path: ""
+      path: "_p5js"
       type: p5js
     values:
       layout: single
