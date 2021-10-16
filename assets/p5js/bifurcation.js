@@ -1,4 +1,4 @@
-function setup() {
+/*function setup() {
   cnv = createCanvas(800, 800);
   cnv.parent('bifurcation');
 }
@@ -7,9 +7,9 @@ function setup() {
 function draw() {
   background(0);
   ellipse(mouseX, mouseY, 50);
-}
+}*/
 
-/*// Parameters
+// Parameters
 let x_0 = 0.5;
 let R_min = 3.4;
 let R_max = 4.0;
@@ -24,7 +24,6 @@ function setup() {
   cnv.parent('bifurcation');
   colorMode(HSB, height, 100, 100, 100);
   background(0);
-  strokeWeight(0);
   noFill();
   R_i = R_min;
 }
@@ -57,4 +56,4 @@ function log_map(x_0, R, n) {
   }
 
   return xs;
-}*/
+}
