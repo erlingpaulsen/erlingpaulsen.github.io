@@ -1,7 +1,7 @@
 main:
   - title: "Artwork"
     url: /art/
-  - title: "p5.js"
+  - title: "Math Art"
     url: /p5js/
   - title: "Synth DIY"
     url: /synthdiy/
