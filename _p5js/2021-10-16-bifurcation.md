@@ -4,11 +4,14 @@ date: 2021-10-16
 ---
 
 <div id="bifurcation">
-    <script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.js"></script>
+    <script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js"></script>
     <script type="text/javascript" src="/assets/p5js/bifurcation.js"></script>
 </div>
 
 A simple p5.js sketch. 
+$$
+x_{n+1} = Rx_n(1-x_n)
+$$
 
 ###Source code
 

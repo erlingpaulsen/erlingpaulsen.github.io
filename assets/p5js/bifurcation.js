@@ -10,7 +10,7 @@ let alpha = 10;
 
 function setup() {
   cnv = createCanvas(800, 600);
-  cnv.parent('birfucation');
+  cnv.parent('bifurcation');
   frameRate(24);
   colorMode(HSB, height, 100, 100, 100);
   background(0);
