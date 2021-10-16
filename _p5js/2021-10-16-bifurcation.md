@@ -3,10 +3,6 @@ title: "Bifurcation"
 date: 2021-10-16
 ---
 
-<style type="text/css">
-   .p5js {border-radius:4px;}
-</style>
-
 <div class="p5js" id="bifurcation">
     <script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js"></script>
     <script language="javascript" type="text/javascript" src="/assets/p5js/bifurcation.js"></script>
@@ -35,7 +31,6 @@ let alpha = 10;
 
 function setup() {
   createCanvas(800, 600);
-  frameRate(24);
   colorMode(HSB, height, 100, 100, 100);
   background(0);
   strokeWeight(0);
