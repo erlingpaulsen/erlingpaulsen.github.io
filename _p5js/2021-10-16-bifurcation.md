@@ -3,7 +3,6 @@ title: "Bifurcation"
 date: 2021-10-16
 header:
   teaser: /assets/images/bifurcation_500x300.png
-classes: wide
 ---
 
 <div class="p5js" id="bifurcation">
