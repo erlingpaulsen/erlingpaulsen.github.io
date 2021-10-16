@@ -1,21 +1,10 @@
-/*function setup() {
-  cnv = createCanvas(800, 800);
-  cnv.parent('bifurcation');
-}
-
-
-function draw() {
-  background(0);
-  ellipse(mouseX, mouseY, 50);
-}*/
-
 // Parameters
 let x_0 = 0.5;
 let R_min = 3.4;
 let R_max = 4.0;
-let R_step = 0.001;
+let R_step = 0.0001;
 let R_i;
-let n = 400;
+let n = 500;
 let k = 200;
 let alpha = 10;
 
