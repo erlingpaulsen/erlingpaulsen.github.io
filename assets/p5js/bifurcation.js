@@ -2,9 +2,9 @@
 let x_0 = 0.5;
 let R_min = 3.4;
 let R_max = 4.0;
-let R_step = 0.0001;
+let R_step = 0.001;
 let R_i;
-let n = 500;
+let n = 400;
 let k = 200;
 let alpha = 10;
 
@@ -14,7 +14,7 @@ function setup() {
   frameRate(24);
   colorMode(HSB, height, 100, 100, 100);
   background(0);
-  strokeWeight(0); //0.1
+  strokeWeight(0);
   noFill();
   R_i = R_min;
 }
