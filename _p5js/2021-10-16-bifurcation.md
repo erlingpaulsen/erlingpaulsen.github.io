@@ -4,10 +4,10 @@ date: 2021-10-16
 ---
 
 <style type="text/css">
-   div {border-radius:4px;}
+   .p5js {border-radius:4px;}
 </style>
 
-<div id="bifurcation">
+<div class="p5js" id="bifurcation">
     <script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js"></script>
     <script language="javascript" type="text/javascript" src="/assets/p5js/bifurcation.js"></script>
 </div>
@@ -18,7 +18,7 @@ $$
 x_{n+1} = Rx_n(1-x_n)
 $$
 </div>
-for <span>$3.4 \leq R \leq 4.0$</span> using <span>n=500</span> iterations for each value <span>R_i</span>, with increments of <span>R_{step}=0.0001</span>. To only plot the steady-state values of <span>x_n</span> whenever the equation is non-chaotic, only the last <span>k=200</span> iterations are plotted for each <span>R_i</span>. The initial value of the logistic map is set to <span>x_0=0.5</span> for each <span>R_i</span>.
+for <span>$3.4 \leq R \leq 4.0$</span> using <span>$n=500$</span> iterations for each value <span>$R_i$</span>, with increments of <span>$R_{step}=0.0001$</span>. To only plot the steady-state values of <span>$x_n$</span> whenever the equation is non-chaotic, only the last <span>$k=200$</span> iterations are plotted for each <span>$R_i$</span>. The initial value of the logistic map is set to <span>$x_0=0.5$</span> for each <span>$R_i$</span>.
 
 ### Source code
 
