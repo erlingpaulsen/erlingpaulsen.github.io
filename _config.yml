@@ -17,7 +17,7 @@ title: erlingsp
 subtitle: "a small creative portifolio"
 email: erling.singstad.paulsen@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This is my personal page used for sharing thoughts, code, guides, art, music and other random stuff.
+  This is my personal page used for sharing hobby projects, creative code, guides, art, music and other stuff.
 #twitter_username: username
 github_username: erlingpaulsen
 minimal_mistakes_skin: dark
@@ -64,7 +64,7 @@ plugins:
 author:
   name   : "Erling Singstad Paulsen"
   avatar : "/assets/images/apollonian_gasket_200x200.jpg"
-  bio    : "Some Norwegian dude."
+  bio    : "Engineer"
   links:
     - label: "Oslo, Norway"
       icon: "fab fa-fw map-marker-alt"
