@@ -23,7 +23,7 @@ github_username: erlingpaulsen
 minimal_mistakes_skin: dark
 search: true
 locale: "nb-NO"
-url: "https://blog.erlingsp.no"
+url: "https://erlingsp.no"
 repository: "erlingpaulsen/erlingpaulsen.github.io"
 teaser: "/assets/images/default_teaser_500x300.jpg"
 logo: "/assets/images/logo_110x110.png"
